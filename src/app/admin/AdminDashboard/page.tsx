@@ -178,12 +178,12 @@ export default function AdminPanel() {
   };
 
   return (
-    <section className="min-h-screen bg-linear-to-b  from-red-700 via-red-950 to-black p-4 md:p-6 lg:p-8">
+    <section className="min-h-screen bg-linear-to-b  from-yellow-500 via-yellow-800 to-yellow-950 p-4 md:p-6 lg:p-8">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-8">
           <h1 className="text-3xl md:text-4xl font-bold text-yellow-50">
-            Admin -  𝔅𝔦𝔯𝔶𝔞𝔫𝔦 ℌ𝔬𝔲𝔰𝔢 
+            Admin -  Golden Kithcen
           </h1>
           <Button
             variant="ghost"

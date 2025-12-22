@@ -135,7 +135,7 @@ export const Cart = () => {
     if (orderMode === "online") message += `*Delivery Charge:* ₹${deliveryCharge}%0A`;
     message += `*Total:* ₹${total}%0A%0AThank you!`;
 
-    const whatsappUrl = `https://wa.me/919113320865?text=${message}`;
+    const whatsappUrl = `https://wa.me/916206983393?text=${message}`;
     window.open(whatsappUrl, "_blank");
     clearCart();
   };
@@ -147,7 +147,7 @@ export const Cart = () => {
         onClick={() => setOpen(true)}
         className="fixed bottom-20 right-6 z-50 cursor-pointer group"
       >
-        <div className="relative bg-red-700 hover:bg-red-500 text-white p-5 rounded-full shadow-2xl border-4 border-white transition-all group-hover:scale-110">
+        <div className="relative bg-yellow-600 hover:bg-yellow-500 text-white p-5 rounded-full shadow-2xl border-4 border-white transition-all group-hover:scale-110">
           <ShoppingCart size={32} />
           {totalItems > 0 && (
             <span className="absolute -top-3 -right-3 bg-red-600 text-white rounded-full min-w-9 h-9 flex items-center justify-center font-bold text-sm animate-pulse shadow-lg">

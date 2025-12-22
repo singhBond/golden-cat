@@ -3,13 +3,14 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
+// Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCiTqLfgXF9crknc_SWuT95nL59Diuglgg",
-  authDomain: "biryani-house-e44a3.firebaseapp.com",
-  projectId: "biryani-house-e44a3",
-  storageBucket: "biryani-house-e44a3.firebasestorage.app",
-  messagingSenderId: "664868416192",
-  appId: "1:664868416192:web:1105aa3853127a2a695b25"
+  apiKey: "AIzaSyCMTM1Ca4F6NvDEyyuFwl0LcwkWXF9ewws",
+  authDomain: "golden-kitchen-70763.firebaseapp.com",
+  projectId: "golden-kitchen-70763",
+  storageBucket: "golden-kitchen-70763.firebasestorage.app",
+  messagingSenderId: "444179316422",
+  appId: "1:444179316422:web:68fd9fd6dd0475678de1c7"
 };
 
 
